@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230117 17:11:00.971" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\mohamedrafik.pm\.vscode\extensions\robocorp.robotframework-lsp-1.7.3\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser">
+<arg>https://robotsparebinindustries.com/</arg>
+<msg timestamp="20230117 17:11:22.217" level="FAIL">No keyword with name 'Open Available Browser' found.</msg>
+<status status="FAIL" starttime="20230117 17:11:22.217" endtime="20230117 17:11:22.217"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230117 17:11:55.144" endtime="20230117 17:12:23.241"/>
+</kw>
+<status status="PASS" starttime="20230117 17:11:01.018" endtime="20230117 17:25:03.712"/>
+</kw>
+<status status="PASS" starttime="20230117 17:11:01.018" endtime="20230117 17:25:03.712"/>
+</test>
+<status status="PASS" starttime="20230117 17:11:00.978" endtime="20230117 17:25:03.715"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
